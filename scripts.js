@@ -1,8 +1,8 @@
 function toggleDarkMode() {
     document.body.classList.toggle('dark-mode')
 }
-
 document.getElementById('toggle-dark-mode').addEventListener('click', toggleDarkMode)
+
 
 document.getElementById('contactForm').addEventListener('submit', function (event) {
     event.preventDefault()

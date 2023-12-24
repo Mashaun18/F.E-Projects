@@ -161,8 +161,8 @@ footer a:hover {
 }
 
 
-
 /* Dark mode styles */
+
 body.dark-mode {
   background-color: #333;
   color: #fff;
@@ -190,7 +190,7 @@ body.dark-mode article {
 }
 
 body.dark-mode article img {
-  filter: brightness(0.8); /* Adjust image brightness for better visibility */
+  filter: brightness(0.8);
 }
 
 body.dark-mode form {
