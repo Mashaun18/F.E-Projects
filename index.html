@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zion Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#blog">Blog Posts</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="toggle-dark-mode">Toggle Dark Mode</button>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="home">
+            <h1>Welcome to Zion's Blog</h1>
+            <p>Hi there! I'm Zion, and this is my space on the internet where I share my thoughts,
+                experiences, and everything in between. Stay tuned for exciting content!</p>
+            <p>Discover the latest news and updates about me and my work.</p>
+        </section>
+
+        <section id="blog">
+            <h2>Blog Posts</h2>
+            <article>
+                <h3>Exploring the Beauty of Nature</h3>
+                <p>
+                 In my recent journey, I discovered the breathtaking beauty of nature. From serene landscapes
+                 to vibrant wildlife, this post captures the essence of my exploration.
+                </p>
+                <img src="./media/untitled 1.jpg" alt="Natures Home">
+              </article>
+
+              <article>
+                <h3>The Art of Productivity</h3>
+                <p>
+                 Dive into the world of productivity as I share my tips and tricks to stay focused and
+                 make the most out of every day. Let's unlock your full potential together!
+                </p>
+                <img src="./media/untitled 3.jpg" alt="Sunset">
+              </article>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="./media/untitled 2.jpg" alt="Zion" class="profile-picture">
+            <p>
+                Hey, I'm Zion An enthusiast of Design, Books, Arts. My journey has been filled
+                with intresting moments, enlightening discoveries and perfect memories. Join me as I navigate through life's adventures and share my stories
+                with you.
+            </p>
+            <p>Learn more about me and my interests.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>
+                Have a question, comments or just want to say hello? Feel free to reach out to me through the form below.
+                I'd love to hear from you!
+            </p>
+            <form id="contactForm" action="#" method="post">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+            
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+            
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+            
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            
+                <button type="submit">Send Message</button>
+              </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; <cite>2023 Zion's Blog. All rights reserved.</cite></p>
+      </footer>
+
+    <script src="scripts.js"></script>
+</body>
